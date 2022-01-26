@@ -1,0 +1,43 @@
+{
+  "name": "wz-mate-api",
+  "version": "1.0.0",
+  "description": "api for wz-mate web app",
+  "main": "app.js",
+  "engines": {
+    "npm": ">=8.3.0",
+    "node": ">=16.13.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "echo \"start prod script\" && exit 1",
+    "dev": "nodemon ./server.js",
+    "test": "jest --detectOpenHandles",
+    "build": "echo \"build script\"",
+    "stop": "echo \"stop script\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua-hunt/wz-mate-api.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "J.Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshua-hunt/wz-mate-api/issues"
+  },
+  "homepage": "https://github.com/joshua-hunt/wz-mate-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
