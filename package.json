@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/joshua-hunt/wz-mate-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "mongoose": "^6.1.8"
   },
