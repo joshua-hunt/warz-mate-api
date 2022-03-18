@@ -1,9 +1,13 @@
+//imports
 var express = require('express');
+var cors = require('cors')
 
 var app = express();
 
-//gun model & route
-require('./models/gun');
+//middleware
+app.use(cors());
+
+//routes
 app.use(require('./routes'));
 
 // catch bad requests
